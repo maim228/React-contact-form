@@ -16,25 +16,22 @@ body{
   width: 70%;
 }
 label{
-  font-size: 28pt !important;
+  font-size: 20pt !important;
   color: aliceblue;
 }
 input,textarea{
-  font-size: 20pt !important;
+  font-size: 14pt !important;
 }
 input,textarea{
   width: 40% !important;
   margin: auto !important;
 }
 button{
-  font-size: 20pt !important;
+  font-size: 14pt !important;
 }
 @media only screen and (max-width:900px){
   .form{
     width: 90%;
-  }
-  input,textarea,button{
-    font-size: 14pt !important;
   }
   label{
     font-size: 20pt !important;
