@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  background: transparent;
+}
+body{
+  background: url('./images/bubble-animated-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+label{
+  font-size: 28pt !important;
+  color: aliceblue;
+}
+input,textarea{
+  font-size: 20pt !important;
+}
+input,textarea{
+  width: 40% !important;
+  margin: auto !important;
+}
+button{
+  font-size: 20pt !important;
+}
+@media only screen and (max-width:900px){
+  .form{
+    width: 90%;
+  }
+  input,textarea,button{
+    font-size: 14pt !important;
+  }
+  label{
+    font-size: 20pt !important;
+  }
+  input,textarea{
+    width: 70% !important;
+  }
+}
