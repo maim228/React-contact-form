@@ -76,8 +76,14 @@ It took 37 minutes to build this project with all functions
 
 ### -Technologies:
 -ReactJs
+
 -EmailJs
+
 -React-Bootstrap
+
 -SweetAlertJS
 
-### Made with love [https://maim.cf/](MAIM)
+### Made with love by:
+[https://maim.cf/]
+
+[https://github.com/maim228]
