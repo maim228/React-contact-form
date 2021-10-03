@@ -27,7 +27,8 @@ document.querySelectorAll('input')[0].value === '' || document.querySelectorAll(
  }
 
  function resetForm(){
-   document.querySelector('.form').reset()
+   document.querySelector('.form').reset();
+   document.querySelector('.btn-warning').disabled=true;
  }
   return (
     <Form className='form' onSubmit={sendEmail}>
